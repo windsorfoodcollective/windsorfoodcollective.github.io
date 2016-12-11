@@ -1,0 +1,102 @@
+---
+layout: WFCdefault
+title: Sign Up
+description: Windsor Food Collective
+---
+
+<h1 class="mtl">Sign Up</h1>
+
+<p>This page shows how all teh html tags renders on this thing. Taken from <a href="http://codex.wordpress.org/Theme_Unit_Test">WordPress Theme Unit Test</a></p>
+<!-- sign uP:
+first name
+last name
+email address
+phone number
+phone number 2 (optional)
+suburb
+number of members in household
+username (6 alphanumeric)
+-->
+
+
+<h1 class="mtl">Sign Up</h1>
+
+<form data-abide novalidate action="https://formspree.io/simonmcconnell@gmail.com" method="POST">
+    <input type="hidden" name="_next" value="thanks.html" />
+    <input type="hidden" name="_subject" value="New Member Sign Up!" />
+    <input type="text" name="_gotcha" style="display:none" />
+  <div data-abide-error class="alert callout" style="display: none;">
+    <p><i class="fi-alert"></i> There are some errors, see below.</p>
+  </div>
+  <div class="row">
+    <div class="small-12 columns">
+      <label>First Name
+        <input type="text" placeholder="First Name" aria-describedby="exampleHelpText" required pattern="[a-zA-Z]{}" autocomplete="given-name" name="first-name">
+        <span class="form-error">
+          Enter your first name
+        </span>
+      </label>
+    </div>
+    <div class="small-12 columns">
+      <label>Last Name
+        <input type="text" placeholder="Last Name" aria-describedby="exampleHelpText" required pattern="[a-zA-Z]{}" autocomplete="family-name" name="last-name">
+        <span class="form-error">
+          Enter your last name
+        </span>
+      </label>
+    </div> 
+    <div class="small-12 columns">
+      <label>Email
+        <input type="email" id="email" placeholder="your@email.com" aria-describedby="exampleHelpText" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" autocomplete="email" name="email">
+        <span class="form-error">
+          Enter your email address in the format your@email.com
+        </span>
+      </label>
+    </div> 
+        <div class="small-12 columns">
+      <label>Confirm Email
+        <input type="email" placeholder="your@email.com" aria-describedby="exampleHelpText" required data-equalto="email" autocomplete="email">
+        <span class="form-error">
+          Email addresses must match!
+        </span>
+      </label>
+    </div>
+    <div class="small-12 columns">
+      <label>Phone
+        <input type="number" placeholder="0400132456" aria-describedby="exampleHelpText" required pattern="[0-9]{10}" name="phone-number">
+        <span class="form-error">
+          Enter your phone number, including the area code with no spaces.
+        </span>
+      </label>
+    </div>
+    <div class="small-12 columns">
+      <label>Username
+        <input type="text" id="password" placeholder="user01" aria-describedby="exampleHelpText" required pattern="[a-z]+[a-z0-9]{6}" name="username">
+        <span class="form-error">
+          Username must be 6 letters or numbers with no spaces and cannot start with a number.
+        </span>
+      </label>
+      <p class="help-text" id="exampleHelpText">Userame must be 6 characters.</p>
+    </div>
+    <div class="small-12 columns">
+      <label>Suburb
+        <input type="text" placeholder="Windsor" aria-describedby="exampleHelpText" required pattern="[a-zA-Z]{}" name="suburb">
+        <span class="form-error">
+          Enter the suburn in which you reside
+        </span>
+      </label>
+    </div>
+    <div class="small-12 columns">
+      <label>Number of people in your household
+        <input type="number" placeholder="2" aria-describedby="exampleHelpText" name="people-in-household">
+        <span class="form-error">
+          Enter the number of people in your household who will be fed from your order
+        </span>
+      </label>
+    </div>
+    <div class="small-12 columns">
+      <button class="button" type="submit" value="Send">Sign Up</button>
+    </div>
+  </div>
+
+</form>

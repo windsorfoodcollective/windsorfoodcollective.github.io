@@ -1,0 +1,12 @@
+name : Windsor Food Collective
+brand : Windsor Food Collective
+description : Zenthai Shiatsu and KaHuna therapist in Brisbane
+keyword : zenthai, shiatsu, kahuna, ka huna, bodywork, massage, simon mcconnell
+url : http://www.simonmcconnell.com
+email : hi@simonmcconnell.com
+github : simonmcconnell
+author : Simon McConnell
+year : 2016
+markdown : kramdown
+exclude :
+  - node_modules
