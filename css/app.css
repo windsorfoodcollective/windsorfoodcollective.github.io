@@ -3328,7 +3328,7 @@ table.hover tr:nth-of-type(even):hover {
     box-shadow: 0 0 6px 1px rgba(139, 173, 147, 0.5); }
 
 .title-bar {
-  background: #fefefe;
+  background: #8a8a8a;
   color: #617C58;
   padding: 0.5rem; }
   .title-bar::before, .title-bar::after {

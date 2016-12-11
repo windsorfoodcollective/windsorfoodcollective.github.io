@@ -48,8 +48,8 @@
 
         <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
          <ul class="vertical menu">
-            <!--{% include nav.html %}-->
-          </ul>
+            {% include nav.html %}
+         </ul>
         </div>
 
         <div class="off-canvas-content" data-off-canvas-content>
@@ -60,7 +60,7 @@
             </div>
             <div class="title-bar-right mts">
               <ul class="menu quiet show-for-medium">
-                <!--{% include nav.html %}-->
+                {% include nav.html %}
               </ul>
               <button class="menu-icon quiet hide-for-medium" type="button" data-toggle="offCanvasRight"><i class="fa fa-bars" aria-hidden="true"></i> MENU</button>
             </div>
@@ -78,7 +78,7 @@
                 <li><a href="https://github.com/{{ site.github }}/"><i class="fa fa-github"></i>@{{ site.github }}</a></li>
               </ul>
               <ul class="menu quiet">
-                <!--{% include nav.html %}-->
+                {% include nav.html %}
               </ul>
             </footer>
           </div><!-- end .content -->
