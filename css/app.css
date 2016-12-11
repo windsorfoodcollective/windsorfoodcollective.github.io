@@ -4066,8 +4066,8 @@ h1, h2, h3, h4, h5, h6 {
 .quiet {
   font-size: 80%; }
 
-.title-bar {
-  box-shadow: 0 0 0px rgba(138, 138, 138, 0.3); }
+/*.title-bar {
+  box-shadow: 0 0 0px rgba(138, 138, 138, 0.3); } */
   .title-bar .title-bar-title {
     font-weight: 800; }
 
