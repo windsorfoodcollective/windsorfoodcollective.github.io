@@ -1277,7 +1277,7 @@ a {
   line-height: inherit;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #719b7b; }
+    color: #536b4c; }
   a img {
     border: 0; }
 
@@ -1482,7 +1482,7 @@ kbd {
   [data-whatinput='mouse'] .button {
     outline: 0; }
   .button:hover, .button:focus {
-    background-color: #709a79;
+    background-color: #52694b;
     color: #fff; }
   .button.tiny {
     font-size: 0.6rem; }
@@ -1981,7 +1981,7 @@ select {
   text-align: center;
   border-radius: 50%;
   background: #617C58;
-  color: #0a0a0a; }
+  color: #fefefe; }
   .badge.secondary {
     background: #777;
     color: #fefefe; }
@@ -2517,7 +2517,7 @@ select {
   cursor: default;
   border-radius: 0;
   background: #617C58;
-  color: #0a0a0a; }
+  color: #fefefe; }
   .label.secondary {
     background: #777;
     color: #fefefe; }
@@ -2846,7 +2846,7 @@ body {
   .pagination .current {
     padding: 0.1875rem 0.625rem;
     background: #617C58;
-    color: #0a0a0a;
+    color: #fefefe;
     cursor: default; }
   .pagination .disabled {
     padding: 0.1875rem 0.625rem;
@@ -2952,7 +2952,7 @@ body {
   [data-whatinput='mouse'] .slider-handle {
     outline: 0; }
   .slider-handle:hover {
-    background-color: #709a79; }
+    background-color: #52694b; }
   .slider-handle.is-dragging {
     transition: all 0s linear; }
 
@@ -3317,7 +3317,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .thumbnail {
   border: solid 4px #fefefe;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 0 0px rgba(10, 10, 10, 0.2);
   display: inline-block;
   line-height: 0;
   max-width: 100%;
@@ -3325,10 +3325,10 @@ table.hover tr:nth-of-type(even):hover {
   border-radius: 0;
   margin-bottom: 1rem; }
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(139, 173, 147, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(97, 124, 88, 0.5); }
 
 .title-bar {
-  background: #e6e6e6;
+  background: #fefefe;
   color: #617C58;
   padding: 0.5rem; }
   .title-bar::before, .title-bar::after {
@@ -4066,23 +4066,7 @@ h1, h2, h3, h4, h5, h6 {
 .quiet {
   font-size: 80%; }
 
-/*.title-bar {
-  box-shadow: 0 0 0px rgba(138, 138, 138, 0.3); } */
+.title-bar {
+  box-shadow: 0 0 10px rgba(138, 138, 138, 0.3); }
   .title-bar .title-bar-title {
     font-weight: 800; }
-
-/*** CSS bar graph (SO)  */
-.graph {
-	width: 160px;
-	height: 50px;
-	border: 1px solid #aeaeae;
-	background-color: #eaeaea;
-}
-.bar {
-	width: 75px;
-	margin: 1px;
-	display: inline-block;
-	position: relative;
-	background-color: #aeaeae;
-	vertical-align: text-bottom;
-}
